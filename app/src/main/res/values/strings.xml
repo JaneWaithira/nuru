@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Nuru</string>
+    <string name="app_title">nuru.</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="nuru">nuru.</string>
+    <string name="get_started">Get Started</string>
+    <string name="login_title">Login</string>
+    <string name="login_email">email</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="login_password">password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="to_register">
+        I don\'t have an account?
+        <font color="#FBBC04"><b>Register</b></font>
+    </string>
+
+    <string name="to_login">
+        Already have an account?
+        <font color="#FBBC04"><b>Login</b></font>
+    </string>
+
+    <string name="to_privacy" translatable="false">
+        By continuing, you agree to our
+        <font color="#FBBC04"><b>Terms</b></font> &amp; <font color="#FBBC04"><b>Privacy Policy</b></font>
+    </string>
+    <string name="btn_login">login</string>
+    <string name="register_title">Register</string>
+    <string name="name_label">Username</string>
+    <string name="username">Username</string>
+    <string name="confirmpassword_label">Confirm Password</string>
+    <string name="btn_register">Register</string>
+    <string name="forgotpassword_title">Forgot Password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="recover">Recover</string>
+    <string name="backto_login">Go back to <font color="#FBBC04"><b>Login</b></font></string>
+    <string name="title_activity_nav">Nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home">Home</string>
+    <string name="today">Today</string>
+    <string name="insights">Insights</string>
+    <string name="resources">Resources</string>
+    <string name="people">People</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">home page</string>
+    <string name="insights_fragment">Insights</string>
+    <string name="today_fragment">Moods page</string>
+    <string name="resources_fragment">"Resources "</string>
+    <string name="community_fragment">Community</string>
+    <string name="settings">Settings</string>
+    <string name="edit_info">Edit Info</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="english">English</string>
+    <string name="kiswahili">Swahili</string>
+    <string name="Terms"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="signout">Sign Out</string>
+    <string name="delete">Delete Account</string>
+    <string name="Account">Account Management</string>
+    <string name="email">email</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_post">Add post</string>
+    <string name="no_comments">No comments Yet, Kindly add yours</string>
+    <string name="view_all">View all</string>
+    <string name="forward"><![CDATA[>]]></string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="log_mood">Log Mood</string>
+    <string name="Chat">chat</string>
+    <string name="Community_chats">community</string>
+    <string name="add_resource">Add</string>
+    <string name="Save">Save</string>
+    <string name="happy">happy</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="calm">Calm</string>
+    <string name="anxious">Anxious</string>
+    <string name="tired">Tired</string>
+    <string name="scared">Scared</string>
+    <string name="confused">Confused</string>
+    <string name="mood">Mood</string>
+    <string name="sensory_experience">Sensory Experience</string>
+    <string name="coping_mechanism">Coping Mechanism</string>
+    <string name="additional_notes">Additional Notes</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="dynamic_title">Dynamic Title</string>
+    <string name="mood_trend">Mood Trend</string>
+    <string name="reccomendation">Recommendation</string>
+    <string name="my_moods">My Moods</string>
+    <string name="trending_resources">Trending Resources</string>
+    <string name="coping_effectiveness">Effecitiveness</string>
+    <string name="disclaimer">Nuru should not be substituted for medical practitioners!</string>
+    <string name="comment_text">Text Comment Goes Here</string>
+    <string name="delete_comment">Delete Comment</string>
+    <string name="weekly_mood_trend">Weekly Mood Trend</string>
+    <string name="weekly_coping_mechanism">Coping Mechanism Distribution</string>
+    <string name="weekly_trigger_coping">Trigger Coping Relationships</string>
+    <string name="community">Community</string>
+    <string name="sat">SAT</string>
+    <string name="fri">FRI</string>
+    <string name="thur">THUR</string>
+    <string name="wed">WED</string>
+    <string name="tue">TUE</string>
+    <string name="mon">MON</string>
+    <string name="sun">SUN</string>
+</resources>

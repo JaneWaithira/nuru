@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <!-- Top Frame: Mood Selection -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/moodTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mood"
+                android:textColor="@color/navy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/rubik"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/moodRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frame_bg"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+<!--        Emotion intensity slider-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emotion Intensity"
+                android:textColor="@color/navy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/rubik"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Low"
+                    android:textColor="@color/light_navy"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical" />
+
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/emotionIntensitySlider"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:stepSize="1.0"
+                    app:thumbColor="@color/yellow"
+                    app:tickColor="#13161d"
+                    app:trackColorActive="@color/navy"
+                    app:trackColorInactive="@color/grey"
+                    android:valueFrom="0.0"
+                    android:valueTo="10.0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="High"
+                    android:textColor="@color/light_navy"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- Second Frame: Sensory Experiences -->
+
+            <TextView
+                android:id="@+id/sensoryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sensory_experience"
+                android:textColor="@color/navy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/rubik"/>
+
+            <ExpandableListView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/sensory_experience_list"
+                android:layout_margin="10dp"
+                android:groupIndicator="@null" />
+
+        <!-- Third Frame: Coping Mechanisms -->
+
+            <TextView
+                android:id="@+id/copingTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coping_mechanism"
+                android:textColor="@color/navy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/rubik"/>
+
+            <ExpandableListView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:id="@+id/coping_mechanism_list"
+                android:groupIndicator="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/copingEffectivenessTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coping_effectiveness"
+                android:textColor="@color/navy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/rubik"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Low"
+                    android:textColor="@color/yellow"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical" />
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/copingEffectivenessSlider"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:valueFrom="0.0"
+                    android:valueTo="10.0"
+                    android:stepSize="1.0" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="High"
+                    android:textColor="@color/yellow"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/personal_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/additional_notes"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:textColor="@color/navy"
+            android:fontFamily="@font/rubik"
+             />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/Save"
+            android:background="@drawable/bg_button"
+            style="@style/ButtonYellow"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+

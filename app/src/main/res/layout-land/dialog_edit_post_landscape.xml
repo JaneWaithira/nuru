@@ -1,0 +1,78 @@
+<!-- dialog_edit_post.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="MissingDefaultResource">
+
+    <EditText
+        android:id="@+id/edit_text_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your question"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter category"
+        android:minHeight="48dp" />
+
+    <Button
+    android:id="@+id/edit_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/ButtonYellow"
+    android:background="@drawable/bg_button"
+    android:layout_marginBottom="20dp"
+    android:text="Select Image" />
+
+    <TextView
+        android:id="@+id/text_selected_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Image:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:background="@drawable/bg_button"
+            android:layout_gravity="start"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_update"
+            style="@style/ButtonYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:text="@string/add_post"
+            android:gravity="end"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

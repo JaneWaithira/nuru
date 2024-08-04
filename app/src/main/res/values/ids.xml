@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bottomnavigation" type="id"/>
+    <item name="frame_layout" type="id"/>
+    <item name="community" type="id"/>
+    <item name="resources" type="id"/>
+    <item name="graphs" type="id"/>
+    <item name="calendar" type="id"/>
+    <item name="homepage" type="id"/>
+    <item name="moods_pie" type="id"/>
+    <item name="rv_resources" type="id"/>
+    <item name="log_mood_btn" type="id"/>
+    <item name="calendarRecyclerView" type="id"/>
+    <item name="nextWeekIV" type="id"/>
+    <item name="monthYearTV" type="id"/>
+    <item name="previousWeekTV" type="id"/>
+</resources>

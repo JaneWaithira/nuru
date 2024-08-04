@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nuru</string>
+    <string name="app_title">nuru.</string>
+    <string name="welcome_to">Karibu kwenye</string>
+    <string name="nuru">nuru.</string>
+    <string name="get_started">Anza</string>
+    <string name="login_title">Ingia</string>
+    <string name="login_email">barua pepe</string>
+    <string name="email_label">Barua Pepe</string>
+    <string name="password_label">Nenosiri</string>
+    <string name="login_password">nenosiri</string>
+    <string name="forgot_password">Umesahau Nenosiri?</string>
+    <string name="to_register">
+        Sina akaunti?
+        <font color="#FBBC04"><b>Sajili</b></font>
+    </string>
+    <string name="to_login">
+        Tayari una akaunti?
+        <font color="#FBBC04"><b>Ingia</b></font>
+    </string>
+    <string name="to_privacy" translatable="false">
+        Kwa kuendelea, unakubali yetu
+        <font color="#FBBC04"><b>Masharti</b></font> &amp; <font color="#FBBC04"><b>Sera ya Faragha</b></font>
+    </string>
+    <string name="btn_login">ingia</string>
+    <string name="register_title">Sajili</string>
+    <string name="name_label">Jina la Mtumiaji</string>
+    <string name="username">Jina la Mtumiaji</string>
+    <string name="confirmpassword_label">Thibitisha Nenosiri</string>
+    <string name="btn_register">Sajili</string>
+    <string name="forgotpassword_title">Umesahau Nenosiri</string>
+    <string name="enter_email">Weka barua pepe</string>
+    <string name="recover">Rejesha</string>
+    <string name="backto_login">Rudi kwenye <font color="#FBBC04"><b>Ingia</b></font></string>
+    <string name="title_activity_nav">Nav</string>
+    <string name="navigation_drawer_open">Fungua droo ya urambazaji</string>
+    <string name="navigation_drawer_close">Funga droo ya urambazaji</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Kichwa cha urambazaji</string>
+    <string name="action_settings">Mipangilio</string>
+    <string name="menu_home">Nyumbani</string>
+    <string name="menu_gallery">Maktaba</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home">Nyumbani</string>
+    <string name="today">Leo</string>
+    <string name="insights">Maoni</string>
+    <string name="resources">Rasilimali</string>
+    <string name="people">Watu</string>
+    <string name="hello_blank_fragment">Habari sehemu tupu</string>
+    <string name="home_fragment">ukurasa wa nyumbani</string>
+    <string name="insights_fragment">Maoni</string>
+    <string name="today_fragment">Ukurasa wa hisia</string>
+    <string name="resources_fragment">"Rasilimali "</string>
+    <string name="community_fragment">Jumuiya</string>
+    <string name="settings">Mipangilio</string>
+    <string name="edit_info">Hariri Taarifa</string>
+    <string name="language_settings">Mipangilio ya Lugha</string>
+    <string name="english">Kiingereza</string>
+    <string name="kiswahili">Kiswahili</string>
+    <string name="Terms"><![CDATA[Masharti na Vigezo]]></string>
+    <string name="privacy">Sera ya Faragha</string>
+    <string name="signout">Ondoka</string>
+    <string name="delete">Futa Akaunti</string>
+    <string name="Account">Usimamizi wa Akaunti</string>
+    <string name="email">barua pepe</string>
+    <string name="save">Hifadhi</string>
+    <string name="cancel">Ghairi</string>
+    <string name="add_post">Ongeza chapisho</string>
+    <string name="no_comments">Hakuna maoni bado, tafadhali ongeza yako</string>
+    <string name="view_all">Tazama yote</string>
+    <string name="forward"><![CDATA[>]]></string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="log_mood">Ingiza Hisia</string>
+    <string name="Chat">maongezi</string>
+    <string name="Community_chats">jumuiya</string>
+    <string name="add_resource">Ongeza</string>
+    <string name="Save">Hifadhi</string>
+    <string name="happy">Furaha</string>
+    <string name="sad">Huzuni</string>
+    <string name="angry">Hasira</string>
+    <string name="calm">Utulivu</string>
+    <string name="anxious">Wasiwasi</string>
+    <string name="tired">Uchovu</string>
+    <string name="scared">Hofu</string>
+    <string name="confused">Kuchanganyikiwa</string>
+    <string name="mood">Hisia</string>
+    <string name="sensory_experience">Uzoefu wa hisia</string>
+    <string name="coping_mechanism">Mbinu za kukabiliana</string>
+    <string name="additional_notes">Maelezo ya Ziada</string>
+    <string name="type_a_message">Andika ujumbe</string>
+    <string name="dynamic_title">Kichwa Kinachobadilika</string>
+    <string name="mood_trend">Mwelekeo wa Hisia</string>
+    <string name="reccomendation">Mapendekezo</string>
+    <string name="my_moods">Hisia Zangu</string>
+    <string name="trending_resources">Rasilimali Zinazovuma</string>
+    <string name="coping_effectiveness">Ufanisi</string>
+    <string name="disclaimer">Nuru haipaswi kuchukua nafasi ya wataalamu wa afya!</string>
+    <string name="comment_text">Maoni ya Maandishi Hapa</string>
+    <string name="delete_comment">Futa Maoni</string>
+    <string name="weekly_mood_trend">Mwelekeo wa Hisia wa Kila Wiki</string>
+    <string name="weekly_coping_mechanism">Usambazaji wa Mbinu za Kukabiliana za Kila Wiki</string>
+    <string name="weekly_trigger_coping">Mahusiano ya Trigger na Mbinu za Kukabiliana za Kila Wiki</string>
+
+    <string name="community">Jumuiya</string>
+    <string name="sat">JUM</string>
+    <string name="fri">IJI</string>
+    <string name="thur">ALH</string>
+    <string name="wed">JUM</string>
+    <string name="tue">JUM</string>
+    <string name="mon">JUM</string>
+    <string name="sun">JUM</string>
+
+</resources>

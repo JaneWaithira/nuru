@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageButton
+        android:id="@+id/close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/white"
+        android:contentDescription="Close Dialog"
+        android:src="@drawable/baseline_cancel_24"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/close_btn"
+        android:padding="16dp">
+
+    <TextView
+        android:id="@+id/resource_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Title"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/rubik"/>
+
+    <TextView
+        android:id="@+id/resource_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/rubik"
+        android:text="location"
+        android:drawableStart="@drawable/location_pin"
+        android:drawablePadding="10dp"
+        android:padding="3dp"
+        />
+    <TextView
+        android:id="@+id/resource_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/rubik"
+        android:text="date"
+        android:drawableStart="@drawable/calendar_month"
+        android:drawablePadding="10dp"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:id="@+id/resource_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/rubik"
+        android:text="link"
+        android:textColor="@color/blue"
+        android:drawableStart="@drawable/insert_link"
+        android:drawablePadding="10dp"
+        android:padding="3dp"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

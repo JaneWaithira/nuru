@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="7dp"
+    tools:ignore="MissingDefaultResource">
+
+    <!-- list_group.xml -->
+    <TextView
+        android:id="@+id/textViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textSize="18sp"
+        android:background="@drawable/sense_bg"
+        android:textColor="@color/light_navy"
+        android:textStyle="bold"
+        app:drawableEndCompat="@drawable/arrow_down" />
+
+</LinearLayout>

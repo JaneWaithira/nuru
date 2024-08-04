@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:ignore="MissingDefaultResource">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".InsightsFragment"
+    android:padding="0dp">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/mood_trend"
+      android:textColor="@color/navy"
+      android:textSize="18sp"
+      android:layout_margin="5dp"
+      android:textStyle="bold"
+      android:fontFamily="@font/rubik"/>
+
+<!--  Line chart section-->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+     android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/weekly_mood_trend"
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/rubik"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+  </LinearLayout>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/coping_mechanism"
+      android:textColor="@color/navy"
+      android:textSize="18sp"
+      android:layout_margin="5dp"
+      android:textStyle="bold"
+      android:fontFamily="@font/rubik"/>
+
+  <!--  Pie chart section-->
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weekly_coping_mechanism"
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/rubik"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+  </LinearLayout>
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/reccomendation"
+      android:textColor="@color/navy"
+      android:textSize="18sp"
+      android:layout_margin="5dp"
+      android:textStyle="bold"
+      android:fontFamily="@font/rubik"/>
+
+  <!-- Bar Chart Section -->
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weekly_trigger_coping"
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/rubik"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+  </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>

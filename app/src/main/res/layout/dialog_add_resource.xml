@@ -1,0 +1,87 @@
+<!-- dialog_add_post.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your title"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter location"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter link"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/button_add_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonYellow"
+        android:background="@drawable/bg_button"
+        android:layout_marginBottom="20dp"
+        android:text="Select Image" />
+
+    <TextView
+        android:id="@+id/text_selected_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Image:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:background="@drawable/bg_button"
+            android:layout_gravity="start"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_add"
+            style="@style/ButtonYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:text="@string/add_post"
+            android:gravity="end"
+            />
+    </LinearLayout>
+
+</LinearLayout>
